@@ -1,0 +1,569 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.0="http://example.org#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </rdf:type>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Datatype>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#normalizedString">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#Name">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org#country">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#country"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org#process">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org#factory">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#factory"/>
+    <rdfs:range rdf:resource="http://example.org#factory"/>
+    <rdfs:domain rdf:resource="http://example.org#process"/>
+    <rdf:type>
+      <rdfs:Resource rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+        <rdf:type>
+          <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        </rdf:type>
+      </rdfs:Resource>
+    </rdf:type>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://example.org#stages">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdfs:Resource>
+  <rdfs:Class rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <owl:Class rdf:about="http://example.org#thirdStage">
+    <j.0:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >3</j.0:duration>
+    <j.0:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >200</j.0:costs>
+    <rdfs:subClassOf rdf:resource="http://example.org#process"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#stages"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#thirdStage"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org#secondStage">
+    <j.0:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >3</j.0:duration>
+    <j.0:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >300</j.0:costs>
+    <rdfs:subClassOf rdf:resource="http://example.org#process"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#stages"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#secondStage"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org#firstStage">
+    <j.0:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >2</j.0:duration>
+    <j.0:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >100</j.0:costs>
+    <rdfs:subClassOf rdf:resource="http://example.org#process"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#stages"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#firstStage"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://example.org#forthStage">
+    <j.0:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >4</j.0:duration>
+    <j.0:costs rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >400</j.0:costs>
+    <rdfs:subClassOf rdf:resource="http://example.org#process"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#stages"/>
+    <rdfs:subClassOf rdf:resource="http://example.org#forthStage"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://example.org#prodStage">
+    <rdfs:range rdf:resource="http://example.org#stages"/>
+    <rdfs:domain rdf:resource="http://example.org#factory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://example.org#countryName">
+    <rdfs:range rdf:resource="http://example.org#country"/>
+    <rdfs:domain rdf:resource="http://example.org#factory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdfs:subPropertyOf>
+      <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+      </rdfs:Resource>
+    </rdfs:subPropertyOf>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdfs:Resource rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdfs:Resource>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <owl:DatatypeProperty rdf:about="http://example.org#employees">
+    <rdfs:domain rdf:resource="http://example.org#factory"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#foundedAt">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:domain rdf:resource="http://example.org#factory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#endTime">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#costs">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#duration">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://example.org#stages"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#productReference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+    <rdfs:domain rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#startTime">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://example.org#manager">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    <rdfs:domain rdf:resource="http://example.org#factory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <j.0:process rdf:about="http://example.org#process3">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:productReference>LenaSchmidt2022-04-30</j.0:productReference>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </j.0:process>
+  <j.0:forthStage rdf:about="http://example.org#forthStage4">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:startTime>
+    <j.0:factory>
+      <j.0:factory rdf:about="http://example.org#factory3">
+        <j.0:prodStage rdf:resource="http://example.org#forthStage"/>
+        <j.0:prodStage rdf:resource="http://example.org#thirdStage"/>
+        <j.0:prodStage rdf:resource="http://example.org#secondStage"/>
+        <j.0:manager>PedroIglesias</j.0:manager>
+        <j.0:foundedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >1990</j.0:foundedAt>
+        <j.0:employees rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >2500</j.0:employees>
+        <j.0:countryName>
+          <j.0:country rdf:about="http://example.org#spain">
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+          </j.0:country>
+        </j.0:countryName>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </j.0:factory>
+    </j.0:factory>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:forthStage>
+  <j.0:firstStage rdf:about="http://example.org#firstStage4">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:factory>
+      <j.0:factory rdf:about="http://example.org#factory1">
+        <j.0:prodStage rdf:resource="http://example.org#forthStage"/>
+        <j.0:prodStage rdf:resource="http://example.org#firstStage"/>
+        <j.0:manager>VasilisaIvanovchak</j.0:manager>
+        <j.0:foundedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >1995</j.0:foundedAt>
+        <j.0:employees rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >3000</j.0:employees>
+        <j.0:countryName>
+          <j.0:country rdf:about="http://example.org#poland">
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+          </j.0:country>
+        </j.0:countryName>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </j.0:factory>
+    </j.0:factory>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:firstStage>
+  <j.0:thirdStage rdf:about="http://example.org#thirdStage4">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:thirdStage>
+  <j.0:secondStage rdf:about="http://example.org#secondStage3">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:secondStage>
+  <j.0:firstStage rdf:about="http://example.org#firstStage5">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:factory>
+      <j.0:factory rdf:about="http://example.org#factory2">
+        <j.0:prodStage rdf:resource="http://example.org#forthStage"/>
+        <j.0:prodStage rdf:resource="http://example.org#thirdStage"/>
+        <j.0:prodStage rdf:resource="http://example.org#firstStage"/>
+        <j.0:manager>AsmeeDashmir</j.0:manager>
+        <j.0:foundedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >2003</j.0:foundedAt>
+        <j.0:employees rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+        >4000</j.0:employees>
+        <j.0:countryName>
+          <j.0:country rdf:about="http://example.org#india">
+            <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+          </j.0:country>
+        </j.0:countryName>
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+      </j.0:factory>
+    </j.0:factory>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:firstStage>
+  <j.0:forthStage rdf:about="http://example.org#forthStage3">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:forthStage>
+  <j.0:thirdStage rdf:about="http://example.org#thirdStage3">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:thirdStage>
+  <j.0:process rdf:about="http://example.org#process2">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:productReference>ArisuMarioki2022-05-01</j.0:productReference>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </j.0:process>
+  <j.0:secondStage rdf:about="http://example.org#secondStage2">
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:secondStage>
+  <j.0:firstStage rdf:about="http://example.org#firstStage1">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:firstStage>
+  <j.0:process rdf:about="http://example.org#process5">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:productReference>QuarbanAkhtar2022-05-12</j.0:productReference>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </j.0:process>
+  <j.0:forthStage rdf:about="http://example.org#forthStage2">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:forthStage>
+  <j.0:thirdStage rdf:about="http://example.org#thirdStage2">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:thirdStage>
+  <j.0:process rdf:about="http://example.org#process1">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:productReference>AbayomiIalvin2022-04-29</j.0:productReference>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </j.0:process>
+  <rdf:List rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:List>
+  <j.0:secondStage rdf:about="http://example.org#secondStage1">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:secondStage>
+  <j.0:firstStage rdf:about="http://example.org#firstStage2">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:firstStage>
+  <j.0:secondStage rdf:about="http://example.org#secondStage5">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:secondStage>
+  <j.0:forthStage rdf:about="http://example.org#forthStage5">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:forthStage>
+  <j.0:process rdf:about="http://example.org#process4">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:productReference>PabloNyandu2022-05-02</j.0:productReference>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </j.0:process>
+  <j.0:thirdStage rdf:about="http://example.org#thirdStage5">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:thirdStage>
+  <j.0:forthStage rdf:about="http://example.org#forthStage1">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-31 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:forthStage>
+  <j.0:thirdStage rdf:about="http://example.org#thirdStage1">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-27 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:thirdStage>
+  <j.0:secondStage rdf:about="http://example.org#secondStage4">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-24 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:secondStage>
+  <j.0:firstStage rdf:about="http://example.org#firstStage3">
+    <j.0:endTime rdf:datatype="java:java.sql.Timestamp">2022-05-21 00:00:00.0</j.0:endTime>
+    <j.0:startTime rdf:datatype="java:java.sql.Timestamp">2022-05-19 00:00:00.0</j.0:startTime>
+    <j.0:factory rdf:resource="http://example.org#factory2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://example.org#process"/>
+    <rdf:type rdf:resource="http://example.org#stages"/>
+  </j.0:firstStage>
+</rdf:RDF>

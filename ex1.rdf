@@ -1,0 +1,24 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://www.uni-trier.de/">
+  <rdf:Description rdf:about="https://www.uni-trier.de/index.php?id=71847">
+    <j.0:exercise>
+      <rdf:Description rdf:nodeID="A0">
+        <j.0:hasAssignments>3</j.0:hasAssignments>
+        <j.0:SemanticTechnologies>SemanticTechnologies</j.0:SemanticTechnologies>
+      </rdf:Description>
+    </j.0:exercise>
+    <vcard:FN>Maximilian Hoffmann</vcard:FN>
+    <vcard:EMAIL>hoffmannm@uni-trier.de</vcard:EMAIL>
+    <vcard:NAME>Maximilian Hoffmann</vcard:NAME>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.uni-trier.de/index.php?id=1890">
+    <j.0:lecture rdf:parseType="Resource">
+      <j.0:hasExercise rdf:nodeID="A0"/>
+      <j.0:SemanticTechnologies>SemanticTechnologies</j.0:SemanticTechnologies>
+    </j.0:lecture>
+    <vcard:EMAIL>bergmann@uni-trier.de</vcard:EMAIL>
+    <vcard:FN>Ralph Bergmann</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
