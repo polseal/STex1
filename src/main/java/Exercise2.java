@@ -251,11 +251,11 @@ public class Exercise2
         forthStage5.addLiteral(endTime, timestamp);
         process5.addLiteral(endTime, timestamp);
 
-        //model.write( System.out, "RDF/XML-ABBREV" );
+        model.write( System.out, "RDF/XML-ABBREV" );
 
-        RDFWriterI writer = model.getWriter();
+        /*RDFWriterI writer = model.getWriter();
         OutputStream out = new FileOutputStream("ex2.rdf");
-        writer.write(model,out,"");
+        writer.write(model,out,"");*/
 
     }
 

@@ -33,6 +33,7 @@ public class Exercise1
         String fullNameSeminarLead = "Maximilian Hoffmann";
         String emailAddressSeminarLead = "hoffmannm@uni-trier.de";
         Resource lecture = model.createResource();
+
         Resource exercise = model.createResource();
         Resource seminarsLead = model.createResource("https://www.uni-trier.de/index.php?id=71847");
         seminarsLead.addProperty(VCARD.NAME, fullNameSeminarLead);
@@ -52,8 +53,10 @@ public class Exercise1
         seminarsLead.addProperty(VCARD.EMAIL, emailAddressSeminarLead);
         model.add(model.createStatement(seminarsLead, givesExercise, exercise));
 
-        RDFWriterI writer = model.getWriter();
+        model.write( System.out, "RDF/XML-ABBREV" );
+
+        /*RDFWriterI writer = model.getWriter();
         OutputStream out = new FileOutputStream("ex1.rdf");
-        writer.write(model,out,"");
+        writer.write(model,out,"");*/
     }
 }
